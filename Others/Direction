@@ -1,0 +1,8 @@
+//四方移動
+int dh[]={-1,0,1,0}, dw[]={0,1,0,-1};
+for(int dir=0; dir<4; dir++) {
+  int nh=h+dh[dir], nw=w+dw[dir];
+  if(0<=nh&&nh<H && 0<=nw&&nw<W && ) {
+    
+  }
+}

@@ -1,0 +1,11 @@
+//エラトステネスの篩 Eratosthenes sieve
+vector<int> eratosthenes; vector<bool> prime(n+1);
+for(int i=2; i<=N; i++){if(prime[i]) continue;
+  eratosthenes.push_back(i); for(int j=i; j<=N; j+=i) prime[j]=1;
+}
+
+//素因数分解 integer factorization
+map<int,int> factor;
+for(int i=2; i*i<=n; i++)
+  while(n%i==0) factor[i]++, n/=i;
+if(n>1) factor[n]++;

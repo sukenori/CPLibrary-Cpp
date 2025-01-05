@@ -1,0 +1,14 @@
+  "Union-Find constructor":{
+dsu d(N);
+
+ "Union-Find marge":{
+d.merge(u,v);
+
+ "Union-Find same":{
+bool d.same(u,v)
+
+  "Union-Find leader":{
+d.leader(i)
+
+  "Union-Find size":{
+d.size(i)

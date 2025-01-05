@@ -1,0 +1,4 @@
+//順列の全列挙
+do{
+
+}while(ranges::next_permutation(sorted_array).found);
